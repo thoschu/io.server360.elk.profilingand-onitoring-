@@ -1,0 +1,34 @@
+{
+  "name": "io.server360.node.profiling-monitoring",
+  "version": "1.0.0",
+  "description": "Profiling und Monitoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoschu/io.server360.node.profiling-monitoring.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "nodejs",
+    "profiling",
+    "monitoring"
+  ],
+  "author": "Tom S. <thoschu@gmail.com> (https://www.thomas-schulte.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thoschu/io.server360.node.profiling-monitoring/issues"
+  },
+  "homepage": "https://github.com/thoschu/io.server360.node.profiling-monitoring#readme",
+  "dependencies": {
+    "appmetrics": "^4.0.0",
+    "appmetrics-dash": "^4.0.0",
+    "express": "^4.16.3",
+    "forever": "^0.15.3",
+    "nodemon": "^1.17.5",
+    "pm2": "^2.10.4"
+  }
+}
